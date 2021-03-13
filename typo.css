@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container {
+  background: url(wallpaper2.jpg) center center / cover;
+  height: 100vh;
+}
+
+.box {
+  text-align: center;
+  background-color: rgb(163, 202, 176);
+  padding: 90px;
+  width: 70%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.7);
+  border: 1px solid white;
+}
+
+.temperature {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#city {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+li {
+  list-style: none;
+  margin-top: 15px;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: left;
+}
+
+@media (max-width: 728px) {
+  form {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  button {
+    padding: 3px;
+  }
+}
